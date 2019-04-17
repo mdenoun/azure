@@ -22,4 +22,6 @@ steps:
     cd ../client
     npm install
     ng build --prod
+    cd dist
+    node index.js
   displayName: 'npm install and build'
